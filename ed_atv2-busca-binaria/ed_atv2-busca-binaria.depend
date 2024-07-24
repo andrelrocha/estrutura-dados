@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1721840379 source:c:\users\andre.rocha\downloads\ed_atv2-busca-binaria\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1721840347 source:c:\users\andre.rocha\downloads\ed_atv2-busca-binaria\busca.c
+	"busca.h"
+	<stdio.h>
+
+1721834295 c:\users\andre.rocha\downloads\ed_atv2-busca-binaria\busca.h
+
