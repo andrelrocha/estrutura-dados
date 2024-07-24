@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1721833007 source:c:\users\andre.rocha\downloads\prova\conjunto.c
+	"conjunto.h"
+	<stdio.h>
+
+1721831830 c:\users\andre.rocha\downloads\prova\conjunto.h
+
+1721832440 source:c:\users\andre.rocha\downloads\prova\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conjunto.h"
+
