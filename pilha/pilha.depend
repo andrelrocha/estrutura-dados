@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1721847263 source:c:\users\andre.rocha\downloads\pilha\lista.c
+	"pilha.h"
+	<stdlib.h>
+
+1721846855 c:\users\andre.rocha\downloads\pilha\pilha.h
+
