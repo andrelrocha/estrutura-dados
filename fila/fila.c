@@ -1,6 +1,5 @@
-#include "pilha.h"
+#include "fila.h"
 #include <stdlib.h>
-
 
 void createVoidList(Lista* lista) {
     lista->tam = 0;
@@ -10,35 +9,46 @@ void createVoidList(Lista* lista) {
 void printList(Lista* lista) {
     Node* current = lista->top;
     if (current == NULL) {
-        printf("A pilha esta vazia.\n");
+        printf("A lista esta vazia.\n");
         return;
     }
-    printf("Conteudo da pilha:\n");
+    printf("Conteudo da lista:\n");
     while (current != NULL) {
         printf("%d\n", current->key);
         current = current->next;
     }
 }
 
-int addElementToStack(int element, Lista* lista) {
+int addValueToQueue(Lista* lista, int element) {
     Node* no = malloc(sizeof(lista));
 
     no->key = element;
-    no->next = lista->top;
+    no->next = NULL;
 
-    lista->top = no;
+    if (lista->top == NULL) {
+        lista->top = no;
+    } else {
+        Node* aux = lista->top;
+        while(aux->next != NULL) {
+            aux = aux->next;
+        }
+        aux->next = no;
+    }
+
     lista->tam++;
-    return 1;
+    return ;
 }
 
-int removeElementInStack(Lista* lista) {
+int removeValueInQueue(Lista *lista) {
     if (lista->top == NULL) {
-        printf("Lista esta vazia");
+        printf("A lista esta vazia");
         return 0;
     }
 
     Node* aux = lista->top;
     lista->top = aux->next;
+
     free(aux);
+
     lista->tam--;
 }
