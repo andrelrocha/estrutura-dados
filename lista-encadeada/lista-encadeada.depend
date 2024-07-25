@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1721918109 source:c:\users\andre.rocha\downloads\lista-encadeada\lista.c
+	<stdlib.h>
+	"lista.h"
+
+1721916554 c:\users\andre.rocha\downloads\lista-encadeada\lista.h
+
+1721917654 source:c:\users\andre.rocha\downloads\lista-encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
