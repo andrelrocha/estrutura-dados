@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1721919507 source:c:\users\andre.rocha\downloads\lista-circular\lista.c
+	<stdlib.h>
+	"lista.h"
+
+1721920635 c:\users\andre.rocha\downloads\lista-circular\lista.h
+
+1721920855 source:c:\users\andre.rocha\downloads\lista-circular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
