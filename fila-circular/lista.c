@@ -89,3 +89,16 @@ int desenfileira(TipoFila* fila) {
     fila->tamanho--;
     return 1;
 }
+
+int desenfileraSimples(TipoFila* fila) {
+    if (fila->tamanho == 1 || fila->tamanho == 0) {
+        fazFilaVazia(fila);
+        return 0;
+    }
+
+    Celula* aux = fila->cabeca;
+
+    fila->topo = aux->prox;
+    free(aux);
+    return 1;
+}
