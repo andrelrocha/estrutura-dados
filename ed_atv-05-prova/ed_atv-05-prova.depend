@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1722003117 source:c:\users\andre.rocha\downloads\ed_atv-05-prova\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1722002905 c:\users\andre.rocha\downloads\ed_atv-05-prova\fila.h
+
