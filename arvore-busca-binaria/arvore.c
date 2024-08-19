@@ -17,16 +17,44 @@ void imprime_arvore(tipoNo raiz) {
 void insere_no(tipoNo* raiz, int chave) {
     if (*raiz == NULL) {
         *raiz = malloc(sizeof(Celula));
-        if (*raiz == NULL) {
-            fprintf(stderr, "Erro ao alocar memória.\n");
-            exit(1);
-        }
         (*raiz)->chave = chave;
         (*raiz)->esq = NULL;
         (*raiz)->dir = NULL;
-    } else if ((*raiz)->chave > chave) {
+    }
+
+    if ((*raiz)->chave == chave) return NULL;
+
+    if ((*raiz)->chave > chave) {
         insere_no(&(*raiz)->esq, chave);
-    } else if ((*raiz)->chave < chave) {
+    } else {
         insere_no(&(*raiz)->dir, chave);
+    }
+}
+
+void remove_no(tipoNo* raiz, int chave) {
+    if ((*raiz)->chave > chave) {
+        remove_no(&(*raiz)->esq,chave);
+    } else if ((*raiz)->chave < chave) {
+        remove_no(&(*raiz)->dir,chave);
+    } else {
+        if ((*raiz)->esq == NULL) {
+            tipoNo aux = *raiz;
+            *raiz = (*raiz)-> dir;
+            free(aux);
+        } else if ((*raiz)->dir == NULL) {
+            tipoNo aux = *raiz;
+            *raiz = (*raiz)-> esq;
+            free(aux);
+        } else {
+            tipoNo aux = (*raiz)->dir;
+            while(aux->esq != NULL) {
+                aux = aux->esq;
+            }
+
+             // Copia a chave do sucessor para o nó a ser removido
+            (*raiz)->chave = aux->chave;
+            // Remove o sucessor
+            remove_no(&(*raiz)->dir, aux->chave);
+        }
     }
 }

@@ -20,5 +20,11 @@ int main()
     imprime_arvore(raiz);
     printf("\n");
 
+
+    remove_no(&raiz, 60);
+    printf("Arvore em ordem apos excluir o 20:\n");
+    imprime_arvore(raiz);
+    printf("\n");
+
     return 0;
 }
