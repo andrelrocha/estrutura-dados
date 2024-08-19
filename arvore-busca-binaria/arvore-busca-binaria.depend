@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1724093652 source:c:\users\andre.rocha\downloads\arvore-busca-binaria\arvore.h
+
+1724093909 source:c:\users\andre.rocha\downloads\arvore-busca-binaria\main.c
+	<stdio.h>
+	"arvore.h"
+
+1724093965 c:\users\andre.rocha\downloads\arvore-busca-binaria\arvore.h
+
+1724093962 source:c:\users\andre.rocha\downloads\arvore-busca-binaria\arvore.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore.h"
+
