@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1724870256 source:c:\users\andre.rocha\downloads\revisao-avltree\avltree.c
+	<stdlib.h>
+	<stdio.h>
+	"avltree.h"
+
+1724870352 c:\users\andre.rocha\downloads\revisao-avltree\avltree.h
+
+1724869753 source:c:\users\andre.rocha\downloads\revisao-avltree\main.c
+	<stdlib.h>
+	<stdio.h>
+	"avltree.h"
+
+1724870083 source:c:\users\andre.rocha\downloads\revisao-avltree\avltree.h
+

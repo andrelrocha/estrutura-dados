@@ -35,7 +35,7 @@ AVLNode* rotateLeft(AVLNode *node) {
     AVLNode *temp = newRoot->left;
 
     newRoot->left = node;
-    newRoot->right = temp;
+    node->right = temp;
 
     node->height = 1 + ((getHeight(node->left) > getHeight(node->right)) ? getHeight(node->left) : getHeight(node->right));
     newRoot->height = 1 + ((getHeight(newRoot->left) > getHeight(newRoot->right)) ? getHeight(newRoot->left) : getHeight(newRoot->right));
@@ -47,8 +47,8 @@ AVLNode* rotateRight(AVLNode *node) {
     AVLNode* newRoot = node->left;
     AVLNode* temp = newRoot->right;
 
-    newRoot->left = temp;
     newRoot->right = node;
+    node->left = temp;
 
     node->height = 1 + ((getHeight(node->left) > getHeight(node->right)) ? getHeight(node->left) : getHeight(node->right));
     newRoot->height = 1 + ((getHeight(node->left) > getHeight(node->right)) ? getHeight(node->left): getHeight(node->right));
