@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1724854512 source:c:\users\andre.rocha\downloads\max-heap\maxheap.c
+	<stdlib.h>
+	<stdio.h>
+	"maxheap.h"
+
+1724854085 c:\users\andre.rocha\downloads\max-heap\maxheap.h
+	<stdbool.h>
+
+1724854679 source:c:\users\andre.rocha\downloads\max-heap\main.c
+	<stdlib.h>
+	<stdio.h>
+	"maxheap.h"
+
