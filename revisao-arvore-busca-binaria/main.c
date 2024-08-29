@@ -31,6 +31,15 @@ int main() {
     imprimeFP(fp);
     printf("\n");
 
+    int removeValue = 30;
+    printf("Removendo o valor: %d\n", removeValue);
+    retiraNo(removeValue, &fp);
+
+    // Imprime a árvore novamente após remover o valor específico
+    printf("Fila de prioridades apos remover o valor %d:\n", removeValue);
+    imprimeFP(fp);
+    printf("\n");
+
     int searchValue = 40;
     TipoFP foundNode = searchItem(searchValue, &fp);
     if (foundNode) {

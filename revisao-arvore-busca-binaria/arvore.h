@@ -25,3 +25,5 @@ void insereFP(int x, TipoFP *fp);
 void retiramax(int *x, TipoFP *fp);
 
 TipoFP searchItem(int x, TipoFP *fp);
+
+void retiraNo(int x, TipoFP *fp);

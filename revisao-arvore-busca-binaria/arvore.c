@@ -57,6 +57,33 @@ void retiramax(int *x, TipoFP *fp) {
     }
 }
 
+void retiraNo(int x, TipoFP *fp) {
+    if (*fp == NULL) return;
+
+    if (x < (*fp)->registro) {
+        retiraNo(x, &(*fp)->esq);
+    } else if (x > (*fp)->registro) {
+        retiraNo(x, &(*fp)->dir);
+    } else {
+        if ((*fp)->esq == NULL) {
+            TipoFP aux = *fp;
+            *fp = (*fp)->dir;
+            free(aux);
+        } else if ((*fp)->dir == NULL) {
+            TipoFP aux = *fp;
+            *fp = (*fp)->esq;
+            free(aux);
+        } else {
+            TipoFP aux = (*fp)->dir;
+            while (aux->esq != NULL) {
+                aux = aux->esq;
+            }
+            (*fp)->registro = aux->registro;
+            retiraNo(aux->registro, &(*fp)->dir);
+        }
+    }
+}
+
 TipoFP searchItem(int x, TipoFP *fp) {
     if (*fp == NULL) return fp;
 
