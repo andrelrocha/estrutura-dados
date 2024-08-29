@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1723824461 source:c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\fila.c
+	<stdlib.h>
+	<stdio.h>
+	"fila.h"
+
+1723828641 c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\fila.h
+
+1723839482 source:c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TipoFP.h"
+
+1723836796 source:c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\tipofilafifo.c
+	<stdlib.h>
+	<stdio.h>
+	"TipoFilaFIFO.h"
+
+1724069765 c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\tipofilafifo.h
+	"TipoRegistro.h"
+
+1723839182 c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\tiporegistro.h
+
+1723838767 source:c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\tipofp.c
+	<stdlib.h>
+	<stdio.h>
+	"TipoFP.h"
+	"TipoFilaFIFO.h"
+
+1723839133 c:\users\andre.rocha\downloads\ed_atv_08-fila-prioridade-arvore-binaria\tipofp.h
+	"TipoRegistro.h"
+	"TipoFilaFIFO.h"
+
