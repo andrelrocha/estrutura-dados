@@ -3,5 +3,10 @@
 	<stdio.h>
 	"arvore.h"
 
-1724938692 c:\users\andre.rocha\downloads\revisao-arvore-busca-binaria\arvore.h
+1724940504 c:\users\andre.rocha\downloads\revisao-arvore-busca-binaria\arvore.h
+
+1724940492 source:c:\users\andre.rocha\downloads\revisao-arvore-busca-binaria\arvore.c
+	<stdlib.h>
+	<stdio.h>
+	"arvore.h"
 

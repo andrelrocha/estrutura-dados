@@ -32,7 +32,7 @@ int main() {
     printf("\n");
 
     int searchValue = 40;
-    foundNode = searchItem(searchValue, &fp);
+    TipoFP foundNode = searchItem(searchValue, &fp);
     if (foundNode) {
         printf("Item %d encontrado na arvore.\n", searchValue);
     } else {
