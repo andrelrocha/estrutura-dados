@@ -56,3 +56,13 @@ void retiramax(int *x, TipoFP *fp) {
         free(temp);
     }
 }
+
+TipoFP searchItem(int x, TipoFP *fp) {
+    if (*fp == NULL) return fp;
+
+    if (x == (*fp)->registro) return fp;
+
+    TipoFP aux = searchItem(x, &(*fp)->esq);
+    if (aux) return aux;
+    return searchItem(x, &(*fp)->dir);
+}

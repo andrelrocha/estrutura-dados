@@ -31,6 +31,14 @@ int main() {
     imprimeFP(fp);
     printf("\n");
 
+    int searchValue = 40;
+    foundNode = searchItem(searchValue, &fp);
+    if (foundNode) {
+        printf("Item %d encontrado na arvore.\n", searchValue);
+    } else {
+        printf("Item %d nao encontrado na arvore.\n", searchValue);
+    }
+
     // Apaga a árvore e libera a memória
     apagaFP(&fp);
 

@@ -23,3 +23,5 @@ void insereFP(int x, TipoFP *fp);
 
 /*5.Função que remove o registro com a maior chave da fila de prioridades*/
 void retiramax(int *x, TipoFP *fp);
+
+TipoFP searchItem(int x, TipoFP *fp);
