@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1725305607 source:c:\users\andre.rocha\downloads\ed_atv_09\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FP.h"
+
+1725304811 c:\users\andre.rocha\downloads\ed_atv_09\fp.h
+	"Registro.h"
+	"FilaFIFO.h"
+
+1725304143 c:\users\andre.rocha\downloads\ed_atv_09\registro.h
+
+1725304194 c:\users\andre.rocha\downloads\ed_atv_09\filafifo.h
+	"Registro.h"
+
+1725304822 source:c:\users\andre.rocha\downloads\ed_atv_09\filafifo.c
+	<stdlib.h>
+	<stdio.h>
+	"FilaFIFO.h"
+
+1725306023 source:c:\users\andre.rocha\downloads\ed_atv_09\fp.c
+	<stdio.h>
+	<stdlib.h>
+	"FP.h"
+
+1725306347 source:c:\users\andre.rocha\downloads\ed_atv_09\heapsort.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Heapsort.h"
+
+1725306290 c:\users\andre.rocha\downloads\ed_atv_09\heapsort.h
+
