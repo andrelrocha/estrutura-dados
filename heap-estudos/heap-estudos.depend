@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1725367274 source:c:\users\andre.rocha\downloads\heap-estudos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"teste.h"
+
+1725366406 c:\users\andre.rocha\downloads\heap-estudos\teste.h
+
+1725369379 source:c:\users\andre.rocha\downloads\heap-estudos\teste.c
+	<stdio.h>
+	"teste.h"
+
