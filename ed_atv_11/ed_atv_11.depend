@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1726573246 source:c:\users\andre.rocha\downloads\ed_atv_11\main.c
+	"file.h"
+
+1726573223 c:\users\andre.rocha\downloads\ed_atv_11\file.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1726573528 source:c:\users\andre.rocha\downloads\ed_atv_11\file.c
+	<stdlib.h>
+	<stdio.h>
+	"file.h"
+
