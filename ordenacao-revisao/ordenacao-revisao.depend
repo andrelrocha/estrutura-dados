@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1726750111 source:c:\users\andre.rocha\downloads\ordenacao-revisao\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1726760202 source:c:\users\andre.rocha\downloads\ordenacao-revisao\sort.c
+	<stdio.h>
+
